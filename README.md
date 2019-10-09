@@ -8,3 +8,17 @@ The Breast Cancer Dataset is a dataset of features computed from breast mass of 
 * Number of attributes for each patient : 30
 * Number of patients : 569
 * Number of class labels : 2 ('B' and 'M' corresponding to 357 Benign and 212 Malignant patients)
+
+30 features are used, examples:
+
+* radius (mean of distances from center to points on the perimeter)
+* texture (standard deviation of gray-scale values)
+* perimeter
+* area
+* smoothness (local variation in radius lengths)
+* compactness (perimeter^2 / area - 1.0)
+* concavity (severity of concave portions of the contour)
+* concave points (number of concave portions of the contour)
+* symmetry
+* fractal dimension ("coastline approximation" - 1) Datasets are linearly separable using all 30 input features
+
